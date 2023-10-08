@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VLibras</title>
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/rawline');
+    </style>
+</head>
+
+<style>
+    :root {
+        --primary-blue: #0758da;
+        --secundary-blur: #0144b1;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Rawline', Helvetica, sans-serif;
+    }
+
+    body {
+        background-color: #F5F5F5;
+        font-size: 16px;
+        margin-top: 20px;
+
+        * {
+            line-height: 1.5;
+        }
+    }
+
+    main {
+        padding: 20px;
+        gap: 20px;
+        max-width: 1200px;
+        margin: auto;
+
+        button {
+            background-color: var(--primary-blue);
+            color: #FFF;
+            font-weight: 500;
+            font-size: 1em;
+            padding: 0 20px;
+            height: 40px;
+            border: none;
+            cursor: pointer;
+            border-radius: 40px;
+            outline: none;
+
+
+            &:hover {
+                background: var(--secundary-blur);
+                color: #FFF;
+                text-decoration: none;
+            }
+        }
+    }
+
+    section {
+        padding: 40px;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        flex-wrap: wrap;
+        gap: 20px;
+        outline: 1px solid #eee;
+        margin-bottom: 20px;
+        justify-content: start;
+        position: relative;
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        div {
+            ol li {
+                margin-left: 40px;
+            }
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: #286ad4;
+        cursor: pointer;
+        font-weight: bold;
+
+        &:hover {
+            color: var(--primary-blue);
+            text-decoration: underline;
+        }
+    }
+
+    h1,
+    h2 {
+        margin-bottom: 10px;
+        color: #333;
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1.2em;
+        font-weight: 400;
+        color: #777;
+    }
+
+    strong {
+        color: #555;
+        font-weight: bold;
+    }
+
+    span {}
+
+
+    @media (max-width: 480px) {
+        body {
+            font-size: 14px;
+        }
+
+    }
+</style>
+
+<body>
+
+    <main>
+        <section>
+            <div>
+                <img alt="Logo do Governo" style="margin-bottom: 20px;"
+                    src="https://www.gov.br/++theme++padrao_govbr/img/govbr-logo-large.png" alt="">
+
+                <h1>Conheça a Suíte VLibras</h1>
+                <p>
+                    A <a href="https://www.gov.br/governodigital/pt-br/vlibras/" target="_blank">Suíte VLibras</a> é um
+                    conjunto de ferramentas gratuitas e de código aberto que traduz
+                    conteúdos digitais
+                    (texto, áudio e vídeo) em Português para Libras, tornando computadores, celulares e plataformas Web
+                    mais
+                    acessíveis para as pessoas surdas.
+                </p>
+            </div>
+
+
+            <div>
+                <h1>Lembre-se: o VLibras não substitui um intérprete humano</h1>
+                <p>
+                    Não recomendamos sua utilização substitutiva em cursos, aulas, seminários, audiências, propagandas
+                    eleitorais, produções audiovisuais, anúncios ou situações similares na internet, na televisão ou
+                    mesmo
+                    presenciais.
+                </p>
+            </div>
+
+            <div>
+                <h1>Como funciona?</h1>
+                <p>O <strong>VLibras</strong> é uma suíte de ferramentas utilizadas na tradução automática do Português
+                    para a Língua
+                    Brasileira de Sinais. É possível utilizar essas ferramentas tanto no computador Desktop quanto em
+                    smartphones e tablets.
+                </p>
+
+                <a target="_blank" href="https://www.gov.br/pt-br">
+                    <button>Saiba mais</button>
+                </a>
+            </div>
+        </section>
+
+
+
+        <section>
+            <div>
+                <h1>Consultar CPF</h1>
+                <p>
+                    Consulte a situação cadastral do seu CPF junto à Receita Federal. Por meio deste serviço você também
+                    pode emitir o comprovante de situação cadastral, consultar as informações do cadastro e confirmar a
+                    autenticidade de comprovantes de situação cadastral do CPF.
+                </p>
+
+                <p>Acesse os serviços pelos canais listados na aba "Etapas para a realização deste serviço".</p>
+            </div>
+
+
+            <div>
+                <h1>Quem pode utilizar este serviço?</h1>
+                <p>Cidadão inscrito no Cadastro de Pessoas Físicas (CPF).</p>
+            </div>
+
+            <div>
+                <h1>Etapas para a realização deste serviço</h1>
+                <ol>
+                    <li>
+                        <h2>Consultar cadastro de pessoas físicas (CPF)</h2>
+                        <p>
+                            Acesse o sistema e informe seus dados pessoais quando for solicitado.
+                        </p>
+                    </li>
+
+                    <li>
+                        <h2>Consultar pendências</h2>
+                        <p>
+                            Se o seu CPF estiver na situação <strong>"Pendente de regularização"</strong>, consulte suas
+                            pendências para
+                            saber qual declaração de imposto de renda está faltando. Ao enviar a declaração correta, seu
+                            CPF ficará na situação <strong>"Regular"</strong>.
+                        </p>
+                    </li>
+                </ol>
+
+                <a target="_blank" href="https://www.gov.br/pt-br/servicos/consultar-cadastro-de-pessoas-fisicas">
+                    <button>Acessar serviço</button>
+                </a>
+            </div>
+        </section>
+
+
+    </main>
+
+
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://diegofrr.github.io/vlibras/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget({
+            rootPath: 'https://diegofrr.github.io/vlibras/app',
+            position: 'R',
+            opacity: 1,
+            avatar: 'random'
+        });
+    </script>
+</body>
+
+</html>
